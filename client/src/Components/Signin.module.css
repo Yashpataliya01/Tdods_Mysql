@@ -1,0 +1,88 @@
+.sings {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed #070707;
+  height: 600px;
+  padding: 2rem 4rem;
+  background: #e3f2ff;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.signin:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Comic Sans MS", cursive;
+  color: #2f3542;
+  text-shadow: 2px 2px #ff6b81;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.myinp{
+  border-radius: 10px;
+  background-color: #fff;
+  color: #57606f;
+  border: 2px solid #000000;
+  height: 35px;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease;
+  margin: 10px 0px;
+}
+
+.myinp:hover {
+  border-color: #ff4757;
+}
+
+.submitbutton {
+  border-radius: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: 2px solid transparent;
+  height: 40px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
+}
+
+.submitbutton:hover {
+  background-color: #ff6b81;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.liiik {
+  color: #3742fa;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
